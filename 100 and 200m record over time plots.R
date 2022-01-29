@@ -1,0 +1,17 @@
+times <- c(10.06,9.95,9.93, 9.83, 9.79, 9.78, 9.77, 9.74, 9.69, 9.58)
+year <- c(1964,1968,1983,1987,1988,2002,2005,2007,2008,2009)
+library(ggplot2)
+df <- data.frame(times,year)
+ggplot(data=df, aes(x=year, y=times, group=1)) +
+  geom_line(color='green')+
+  geom_point()+
+  labs(title="100 Meter World Record Over Time",x="Year", y = "Time",subtitle='Data from Wikipedia')+
+  theme_classic()
+times <- c(20.6,20.5,20.3,20.2,20,19.8,19.72,19.32,19.3,19.19)
+year <- c(1951,1960,1963,1964,1966,1968,1979,1996,2008,2009)
+df <- data.frame(times,year)
+ggplot(data=df, aes(x=year, y=times, group=1)) +
+  geom_line(color='blue')+
+  geom_point()+
+  labs(title="200 Meter World Record Over Time",x="Year", y = "Time",subtitle='Data from Wikipedia')+
+  theme_classic()
