@@ -1,5 +1,3 @@
-setwd("C:/Users/abhi1/OneDrive/Documents/NCSUSAC/GOATs Competition")
-
 #Installed libraries
 #install.packages("rvest")
 #install.packages("dplyr")
