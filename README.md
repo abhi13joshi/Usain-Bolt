@@ -1,14 +1,13 @@
 # Usain-Bolt
-
-Implementation of data wrangling, web scraping, exploratory data analysis, and data visualization with R to complete an analysis of the career of Usain Bolt that argues why he is the Greatest Athlete of All-Time. This project was for a competition between the Sports Analytics Clubs at North Carolina State, Oklahoma, and Michigan where groups of members from each club debated who's the greatest athlete of all time across all sports called the GOATs Competition. 
+Implementation of data wrangling, web scraping, exploratory data analysis, and data visualization with R to complete an analysis of the career of Usain Bolt that argues why he is the Greatest Athlete of All-Time. This project was created by a group of members of the Sports Analytics Club at North Carolina State. 
 
 ## NCSUAC Group Members:
-Abhi Joshi
+-Abhi Joshi
 
-Pat Walther
+-Pat Walther
 
-Brandon Wisniewski
+-Brandon Wisniewski
 
-Robbie Goss
+-Robbie Goss
 
-Connor Stephens
+-Connor Stephens
