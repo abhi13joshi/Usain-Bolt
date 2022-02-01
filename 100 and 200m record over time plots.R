@@ -4,14 +4,16 @@ library(ggplot2)
 df <- data.frame(times,year)
 ggplot(data=df, aes(x=year, y=times, group=1)) +
   geom_line(color='green')+
+  ylim(9.5,10.25)+
   geom_point()+
-  labs(title="100 Meter World Record Over Time",x="Year", y = "Time",subtitle='Data from Wikipedia')+
+  labs(title="100 Meter World Record Over Time",x="Year", y = "Time",subtitle='Data from Wikipedia',caption='Connor Stephens, Brandon Wisniewski, Pat Walther, Abhi Joshi, Robbie Goss')+
   theme_classic()
 times <- c(20.6,20.5,20.3,20.2,20,19.8,19.72,19.32,19.3,19.19)
 year <- c(1951,1960,1963,1964,1966,1968,1979,1996,2008,2009)
 df <- data.frame(times,year)
 ggplot(data=df, aes(x=year, y=times, group=1)) +
-  geom_line(color='blue')+
+  geom_line(color='black')+
   geom_point()+
-  labs(title="200 Meter World Record Over Time",x="Year", y = "Time",subtitle='Data from Wikipedia')+
+  ylim(19,20.75)+
+  labs(title="200 Meter World Record Over Time",x="Year", y = "Time",subtitle='Data from Wikipedia',caption='Connor Stephens, Brandon Wisniewski, Pat Walther, Abhi Joshi, Robbie Goss')+
   theme_classic()
